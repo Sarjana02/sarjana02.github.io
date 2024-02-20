@@ -8,13 +8,13 @@ subtitle: ''
 description: ''
 keywords:
 author: SongFang zhu
-language: en
-timezone: ''
+language: zh-cn
+timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://sarjana02.github.io
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -23,9 +23,9 @@ pretty_urls:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: tag
+archive_dir: archive
+category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -96,8 +96,14 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins:
+  hexo-abbrlink
+  hexo-algolia
+  hexo-deployer-git
+  hexo-generator-feed
+  hexo-math
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: LiveForCode
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +111,36 @@ deploy:
   type: git
   repository: git@github.com:Sarjana02/sarjana02.github.io.git
   branch: main
+
+# Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10
+
+# Algolia Search
+#  hexo algolia --flush true --layouts post
+algolia:
+  applicationID: NB7SQOQZJ1
+  apiKey: f839c1ce0f56e1d349162275df876fb3
+  indexName: Sarjana's Story
+
+
+# Abbrlink
+abbrlink:
+  alg: crc32
+  rep: dec
+
+# Math
+math:
+  katex:
+    css: /css/katex.min.css
+    options:
+      throwOnError: false
+  mathjax:
+    css: /css/mathjax.css
+    options:
+      conversion:
+        display: false
+      tex:
+      svg:
