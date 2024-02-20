@@ -1,12 +1,12 @@
 {
     window.defaultConfig = {
-        GitHubUserName: 'first19326',
-        GitHubRepositories: 'Hexo-LiveForCode',
-        User: 'LiveForCode',
+        GitHubUserName: 'Sarjana02',
+        GitHubRepositories: 'sarjana02.github.io',
+        User: 'Sarjana',
         UserAvatar: '/image/sidebar/avatar.jpg',
-        WebsiteStartDate: '2020-01-01',
+        WebsiteStartDate: '2024-02-20',
         Home: 'javascript:;',
-        WebsiteTitleBlur: '(◍´꒳`◍) Hi, Live For Code',
+        WebsiteTitleBlur: '(◍´꒳`◍) Hi, Sarjana',
         WebsiteTitleBlurTimeOut: 500,
         WebsiteTitleFocus: '(*´∇｀*) 欢迎回来!',
         WebsiteTitleFocusTimeOut: 1000,

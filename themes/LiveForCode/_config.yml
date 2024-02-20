@@ -7,18 +7,18 @@ GitHubRepositories: "Hexo-LiveForCode"
 
 # ---- 基础信息配置 ----
 # 博主名称, 文章后缀和主页图片上都会使用此名称
-User: "Live For Code"
+User: "Sarjana"
 # 用户头像URL
 UserAvatar: "/image/sidebar/avatar.jpg"
 # 创建时间
 WebsiteStartDate: "2020-01-01"
 # 个人主页URL
-Home: "https://worstone.cn"
+Home: "https://sarjana.cn"
 
 
 # ---- 网站配置 ----
 # 当前页失去焦点, 页面Title显示文字
-WebsiteTitleBlur: "(◍´꒳`◍) Hi, Live For Code"
+WebsiteTitleBlur: "(◍´꒳`◍) Hi, Sarjana"
 # 当前页失去焦点, 页面Title变化, 延时时间, 单位毫秒
 WebsiteTitleBlurTimeOut: 500
 # 当前页获取焦点, 页面Title显示文字, 显示后延时恢复原Title
@@ -128,7 +128,7 @@ Error:
 # 菜单消息
 MenuNotice:
   enable: true
-  notice: "简单地活着，肆意而又精彩！"
+  notice: "愿有人能与你同行！"
   speed: 20
 # 菜单列表
 MenuList:
@@ -160,13 +160,13 @@ MenuList:
     type: "archive"
     class: ""
     target: "_self"
-  -
-    name: "赞赏"
-    icon: "icon-heart-fill"
-    href: "/donate"
-    type: "donate"
-    class: ""
-    target: "_self"
+#  -
+#    name: "赞赏"
+#    icon: "icon-heart-fill"
+#    href: "/donate"
+#    type: "donate"
+#    class: ""
+#    target: "_self"
   -
     name: "关于"
     icon: "icon-about-fill"
@@ -174,13 +174,13 @@ MenuList:
     type: "about"
     class: ""
     target: "_self"
-  -
-    name: "订阅"
-    icon: "icon-rss"
-    href: "/atom.xml"
-    type: ""
-    class: ""
-    target: "_blank"
+#  -
+#    name: "订阅"
+#    icon: "icon-rss"
+#    href: "/atom.xml"
+#    type: ""
+#    class: ""
+#    target: "_blank"
   -
     name: "搜索"
     icon: "icon-search-menu"
@@ -195,26 +195,28 @@ MenuList:
     type: "comment"
     class: ""
     target: "_self"
-  -
-    name: "友情链接"
-    icon: "icon-link"
-    href: "/friend"
-    type: "friend"
-    class: ""
-    target: "_self"
+#  -
+#    name: "友情链接"
+#    icon: "icon-link"
+#    href: "/friend"
+#    type: "friend"
+#    class: ""
+#    target: "_self"
+
+
 # 菜单链接
 MenuLink:
   -
     name: "知乎"
     icon: "icon-zhihu"
-    href: "https://zhihu.com/people/worstone-29"
+    href: "https://www.zhihu.com/people/yong-ren-zi-rao-35"
     class: ""
     target: "_blank"
     image: ""
   -
     name: "微博"
     icon: "icon-weibo"
-    href: "https://weibo.com/u/5749847477"
+    href: "https://weibo.com/u/7154757736"
     class: ""
     target: "_blank"
     image: ""
@@ -231,21 +233,22 @@ MenuLink:
     href: "javascript:;"
     class: ""
     target: "_self"
-    image: ""
+    image: "/image/sidebar/wechat.png"
   -
     name: "GitHub"
     icon: "icon-github"
-    href: "https://github.com/first19326"
+    href: "https://github.com/sarjana02"
     class: ""
     target: "_blank"
     image: ""
+
 
 
 # ---- 页脚配置 ----
 # 页脚样式
 FooterStyle: 2
 # 页脚标语
-BottomText: "<div><span class='face'>ღゝ◡╹)ノ♡</span></div><div>【人生若只如初见<span><i class='iconfont icon-like-fill'></i></span>何事秋风悲画扇】</div><div>&copy; 2020-2023 WorstOne. All Rights Reserved.</div>"
+BottomText: "<div><span class='face'>ღゝ◡╹)ノ♡</span></div><div>【人生若只如初见<span><i class='iconfont icon-like-fill'></i></span>何事秋风悲画扇】</div><div>&copy; 2024-2025 Sarjana. All Rights Reserved.</div>"
 
 
 # ---- 控制台输出 ----
@@ -266,11 +269,11 @@ FontIconExtend: ""
 
 
 # ---- 赞赏配置 ----
-Donate: 
-  paypal : ""
-  bitcoin: ""
-  alipay : "/image/donate/alipay.png"
-  wechat : "/image/donate/wechat.png"
+#Donate:
+#  paypal : ""
+#  bitcoin: ""
+#  alipay : "/image/donate/alipay.png"
+#  wechat : "/image/donate/wechat.png"
 
 
 # ---- Algolia配置 ----
@@ -295,8 +298,8 @@ Comment:
 # ---- Valine配置 ----
 Valine: 
   el: ".comments-content"
-  appId: "srhKtvWPQTWYKh3qX8G8M7v0-gzGzoHsz"
-  appKey: "8uVSP1q6UlALVC5igYfIfv2h"
+  appId: "X2EnEVk5mIV97U03EXCMalOu-gzGzoHsz"
+  appKey: "MGko7NKpfg22Bdd8mdrj3d3b"
   # 必须设置, 国内版本需域名备案
   serverURLs: 
   placeholder: "你是我一生只会遇见一次的惊喜..."
@@ -459,4 +462,4 @@ Suffix:
 # ---- 主题信息配置 ----
 Theme: 
   url: "https://github.com/first19326/Hexo-LiveForCode"
-  name: "Hexo - Live For Code"
+  name: "Hexo - Sarjana"

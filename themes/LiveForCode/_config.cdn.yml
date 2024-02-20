@@ -7,18 +7,18 @@ GitHubRepositories: "Hexo-LiveForCode"
 
 # ---- 基础信息配置 ----
 # 博主名称, 文章后缀和主页图片上都会使用此名称
-User: "Live For Code"
+User: "Sarjana"
 # 用户头像URL
-UserAvatar: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/sidebar/avatar.jpg"
+UserAvatar: "/image/sidebar/avatar.jpg"
 # 创建时间
-WebsiteStartDate: "2020-01-01"
+WebsiteStartDate: "2024-02-20"
 # 个人主页URL
-Home: "https://worstone.cn"
+Home: "https://sarjana.cn"
 
 
 # ---- 网站配置 ----
 # 当前页失去焦点, 页面Title显示文字
-WebsiteTitleBlur: "(◍´꒳`◍) Hi, Live For Code"
+WebsiteTitleBlur: "(◍´꒳`◍) Hi, Sarjana"
 # 当前页失去焦点, 页面Title变化, 延时时间, 单位毫秒
 WebsiteTitleBlurTimeOut: 500
 # 当前页获取焦点, 页面Title显示文字, 显示后延时恢复原Title
@@ -27,8 +27,8 @@ WebsiteTitleFocus: "(*´∇｀*) 欢迎回来!"
 WebsiteTitleFocusTimeOut: 1000
 # 网站图标
 WebsiteFavicon: 
-  light: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/website/logo/logo.png"
-  dark: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/website/logo/logo-dark.png"
+  light: "/image/website/logo/logo.png"
+  dark: "/image/website/logo/logo-dark.png"
 
 
 # ---- 进度条配置 ----
@@ -92,8 +92,8 @@ BackAnimation:
 # ---- 主页配置 ----
 # 主页图片URL, 推荐尺寸 >= 1920 * 1080, 支持多张, 每次刷新随机设置一张
 HomeHeaderImage: 
-  - "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/header/home.jpg"
-  - "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/header/home.jpeg"
+  - "/image/header/home.jpg"
+  - "/image/header/home.jpeg"
 # 主页头图上的标语, 设置此选项会固定显示文字, 默认为空, 自动获取一句
 HomeBannerText: ""
 
@@ -101,7 +101,7 @@ HomeBannerText: ""
 # ---- 文章详情页配置 ----
 # 文章详情页图片URL, 支持多张, 每次刷新随机设置一张
 ArticleHeaderImage: 
-  - "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/header/article.jpg"
+  - "/image/header/article.jpg"
 
 
 # ---- 其他页面配置 ----
@@ -128,7 +128,7 @@ Error:
 # 菜单消息
 MenuNotice:
   enable: true
-  notice: "简单地活着，肆意而又精彩！"
+  notice: "愿有人能与你同行！"
   speed: 20
 # 菜单列表
 MenuList:
@@ -160,13 +160,13 @@ MenuList:
     type: "archive"
     class: ""
     target: "_self"
-  -
-    name: "赞赏"
-    icon: "icon-heart-fill"
-    href: "/donate"
-    type: "donate"
-    class: ""
-    target: "_self"
+#  -
+#    name: "赞赏"
+#    icon: "icon-heart-fill"
+#    href: "/donate"
+#    type: "donate"
+#    class: ""
+#    target: "_self"
   -
     name: "关于"
     icon: "icon-about-fill"
@@ -174,13 +174,13 @@ MenuList:
     type: "about"
     class: ""
     target: "_self"
-  -
-    name: "订阅"
-    icon: "icon-rss"
-    href: "/atom.xml"
-    type: ""
-    class: ""
-    target: "_blank"
+#  -
+#    name: "订阅"
+#    icon: "icon-rss"
+#    href: "/atom.xml"
+#    type: ""
+#    class: ""
+#    target: "_blank"
   -
     name: "搜索"
     icon: "icon-search-menu"
@@ -195,26 +195,27 @@ MenuList:
     type: "comment"
     class: ""
     target: "_self"
-  -
-    name: "友情链接"
-    icon: "icon-link"
-    href: "/friend"
-    type: "friend"
-    class: ""
-    target: "_self"
+#  -
+#    name: "友情链接"
+#    icon: "icon-link"
+#    href: "/friend"
+#    type: "friend"
+#    class: ""
+#    target: "_self"
+
+
 # 菜单链接
-MenuLink:
   -
     name: "知乎"
     icon: "icon-zhihu"
-    href: "https://zhihu.com/people/worstone-29"
+    href: "https://www.zhihu.com/people/yong-ren-zi-rao-35"
     class: ""
     target: "_blank"
     image: ""
   -
     name: "微博"
     icon: "icon-weibo"
-    href: "https://weibo.com/u/5749847477"
+    href: "https://weibo.com/u/7154757736"
     class: ""
     target: "_blank"
     image: ""
@@ -224,18 +225,18 @@ MenuLink:
     href: "javascript:;"
     class: "image"
     target: "_self"
-    image: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/sidebar/qq.png"
+    image: "/image/sidebar/qq.png"
   -
     name: "微信"
     icon: "icon-wechat"
     href: "javascript:;"
     class: ""
     target: "_self"
-    image: ""
+    image: "/image/sidebar/wechat.png"
   -
     name: "GitHub"
     icon: "icon-github"
-    href: "https://github.com/first19326"
+    href: "https://github.com/sarjana02"
     class: ""
     target: "_blank"
     image: ""
@@ -245,7 +246,7 @@ MenuLink:
 # 页脚样式
 FooterStyle: 2
 # 页脚标语
-BottomText: "<div><span class='face'>ღゝ◡╹)ノ♡</span></div><div>【人生若只如初见<span><i class='iconfont icon-like-fill'></i></span>何事秋风悲画扇】</div><div>&copy; 2020-2023 WorstOne. All Rights Reserved.</div>"
+BottomText: "<div><span class='face'>ღゝ◡╹)ノ♡</span></div><div>【人生若只如初见<span><i class='iconfont icon-like-fill'></i></span>何事秋风悲画扇】</div><div>&copy; 2024-2025 Sarjana. All Rights Reserved.</div>"
 
 
 # ---- 控制台输出 ----
@@ -266,11 +267,11 @@ FontIconExtend: ""
 
 
 # ---- 赞赏配置 ----
-Donate: 
-  paypal : ""
-  bitcoin: ""
-  alipay : "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/donate/alipay.png"
-  wechat : "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/image/donate/wechat.png"
+#Donate:
+#  paypal : ""
+#  bitcoin: ""
+#  alipay: "/image/donate/alipay.png"
+#  wechat: "/image/donate/wechat.png"
 
 
 # ---- Algolia配置 ----
@@ -295,8 +296,8 @@ Comment:
 # ---- Valine配置 ----
 Valine: 
   el: ".comments-content"
-  appId: "srhKtvWPQTWYKh3qX8G8M7v0-gzGzoHsz"
-  appKey: "8uVSP1q6UlALVC5igYfIfv2h"
+  appId: "X2EnEVk5mIV97U03EXCMalOu-gzGzoHsz"
+  appKey: "MGko7NKpfg22Bdd8mdrj3d3b"
   # 国内版本 LeanCloud 可以不用设置
   serverURLs: 
   placeholder: "你是我一生只会遇见一次的惊喜..."
@@ -344,7 +345,7 @@ Tocbot:
 
 # ---- Require配置 ----
 Require:
-  baseUrl: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/"
+  baseUrl: "/js/"
   waitSeconds: 100
 
 
@@ -367,9 +368,9 @@ APlayer:
     -
       name: "Endless Tears"
       artist: "CLIFF EDGE"
-      cover: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/music/cover/Endless Tears.jpg"
-      url: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/music/song/Endless Tears.mp3"
-      lrc: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/music/lrc/Endless Tears.lrc"
+      cover: "/music/cover/Endless Tears.jpg"
+      url: "/music/song/Endless Tears.mp3"
+      lrc: "/music/lrc/Endless Tears.lrc"
 # Meting
 Meting:
   api: "https://api.i-meto.com/meting/api"
@@ -400,63 +401,64 @@ LazyLoad:
 
 
 # ---- Style配置 ----
+# ---- Style配置 ----
 Style:
-  aplayer: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/APlayer.min.css"
-  archive: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/archive.min.css"
-  base: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/base.min.css"
-  clipboard: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/clipboard.min.css"
-  code: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/code.min.css"
-  donate: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/donate.min.css"
-  fancybox: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/jquery.fancybox.min.css"
-  footer: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/footer.min.css"
-  iconfont: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/iconfont/iconfont.min.css"
-  index: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/index.min.css"
-  menuBubble: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/menu-bubble.min.css"
-  mouse: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/mouse.min.css"
-  page: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/page.min.css"
-  post: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/post.min.css"
-  search: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/search.min.css"
-  tocbot: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/tocbot.min.css"
-  valine: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/valine.min.css"
-  waline: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/waline.css"
-  walineCustom: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/waline-custom.css"
+  aplayer: "/css/APlayer.css"
+  archive: "/css/archive.css"
+  base: "/css/base.css"
+  clipboard: "/css/clipboard.css"
+  code: "/css/code.css"
+  donate: "/css/donate.css"
+  fancybox: "/css/jquery.fancybox.css"
+  footer: "/css/footer.css"
+  iconfont: "/iconfont/iconfont.css"
+  index: "/css/index.css"
+  menuBubble: "/css/menu-bubble.css"
+  mouse: "/css/mouse.css"
+  page: "/css/page.css"
+  post: "/css/post.css"
+  search: "/css/search.css"
+  tocbot: "/css/tocbot.css"
+  valine: "/css/valine.css"
+  waline: "/css/waline.css"
+  walineCustom: "/css/waline-custom.css"
 
 # ---- Script配置 ----
 Script:
-  aplayer: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/APlayer.min.js"
-  config: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/require.config.min.js"
-  index: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/index.min.js"
-  instantSearch: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/instantsearch.min.js"
-  iscroll: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/iscroll.min.js"
-  jQuery: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/jquery-3.4.1.min.js"
-  loading: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/loading.min.js"
-  meting: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/Meting.min.js"
-  require: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/require.min.js"
-  waline: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/waline.mjs"
-  pageview: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/pageview.mjs"
-  comment: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/comment.mjs"
+  aplayer: "/js/APlayer.min.js"
+  config: "/js/require.config.js"
+  index: "/js/index.js"
+  instantSearch: "/js/instantsearch.min.js"
+  iscroll: "/js/iscroll.js"
+  jQuery: "/js/jquery-3.4.1.min.js"
+  loading: "/js/loading.js"
+  meting: "/js/Meting.min.js"
+  require: "/js/require.min.js"
+  waline: "/js/waline.mjs"
+  pageview: "/js/pageview.mjs"
+  comment: "/js/comment.mjs"
 
 
 # ---- Font配置 ----
 Font:
-  LongCang: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/LongCang.min.css"
-  Monda: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/Monda.min.css"
-  NotoSansSC: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/NotoSansSC.min.css"
-  NotoSerifSC: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/NotoSerifSC.min.css"
-  Playball: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/Playball.min.css"
-  PTMono: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/PTMono.min.css"
-  Roboto: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/Roboto.min.css"
-  RobotoSlab: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/RobotoSlab.min.css"
-  Rosario: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/Rosario.min.css"
-  UbuntuMono: "https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/UbuntuMono.min.css"
+  LongCang: "/font/LongCang.css"
+  Monda: "/font/Monda.css"
+  NotoSansSC: "/font/NotoSansSC.css"
+  NotoSerifSC: "/font/NotoSerifSC.css"
+  Playball: "/font/Playball.css"
+  PTMono: "/font/PTMono.css"
+  Roboto: "/font/Roboto.css"
+  RobotoSlab: "/font/RobotoSlab.css"
+  Rosario: "/font/Rosario.css"
+  UbuntuMono: "/font/UbuntuMono.css"
 
 
 # ---- 文章尾缀配置 ----
-Suffix: 
+Suffix:
   about: "简单地活着, 肆意又精彩."
 
 
 # ---- 主题信息配置 ----
-Theme: 
-  url: "https://github.com/first19326/Hexo-LiveForCode"
-  name: "Hexo - Live For Code"
+Theme:
+#  url: "https://github.com/first19326/Hexo-LiveForCode"
+  name: "Hexo - Sarjana"
