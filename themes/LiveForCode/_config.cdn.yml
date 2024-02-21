@@ -246,7 +246,7 @@ MenuList:
 # 页脚样式
 FooterStyle: 2
 # 页脚标语
-BottomText: "<div><span class='face'>ღゝ◡╹)ノ♡</span></div><div>【人生若只如初见<span><i class='iconfont icon-like-fill'></i></span>何事秋风悲画扇】</div><div>&copy; 2024-2025 Sarjana. All Rights Reserved.</div>"
+BottomText: "<div><span class='face'>ღゝ◡╹)ノ♡</span></div><div>【不要温和地走进那个良夜<span><i class='iconfont icon-like-fill'></i></span>怒斥，怒斥光明的消逝】</div><div>&copy; 2024-2025 Sarjana. All Rights Reserved.</div>"
 
 
 # ---- 控制台输出 ----
@@ -455,7 +455,7 @@ Font:
 
 # ---- 文章尾缀配置 ----
 Suffix:
-  about: "简单地活着, 肆意又精彩."
+  about: "愿你遭遇一切苦涩时，恰好兜里有糖。"
 
 
 # ---- 主题信息配置 ----

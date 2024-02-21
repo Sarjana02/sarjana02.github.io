@@ -620,23 +620,38 @@ function Base() {
             return true;
         }
 
-        let settings = {
-            'async': true,
-            'crossDomain': true,
-            'url': 'https://v2.jinrishici.com/one.json',
-            'method': 'GET'
-        };
+        // let settings = {
+        //     'async': true,
+        //     'crossDomain': true,
+        //     'url': 'https://v2.jinrishici.com/one.json',
+        //     'method': 'GET'
+        // };
 
-        $.ajax(settings).done(function (response) {
-            if (response && response.status === 'success') {
-                $('#hitokoto').text(response.data.content).show();
-                $('#hitokotoAuthor').text('《' + response.data.origin.title + '》 - ' + response.data.origin.dynasty + ' - ' + response.data.origin.author).show();
-            } else {
-                let listIndex = tools.randomNum(0, headerTextList.length - 1);
-                $('#hitokoto').text(headerTextList[listIndex]).show();
-            }
-            return false;
-        });
+
+        // $.ajax(settings).done(function (response) {
+        //     if (response && response.status === 'success') {
+        //         $('#hitokoto').text(response.data.content).show();
+        //         $('#hitokotoAuthor').text('《' + response.data.origin.title + '》 - ' + response.data.origin.dynasty + ' - ' + response.data.origin.author).show();
+        //     } else {
+        //         let listIndex = tools.randomNum(0, headerTextList.length - 1);
+        //         $('#hitokoto').text(headerTextList[listIndex]).show();
+        //     }
+        //     return false;
+        // });
+
+        let settings = [
+            {content:'只记花开不记人，你在花里，如花在风中。',title:'《人间草木》',author:'汪曾祺'},
+            {content:'何等凄惨得时刻：社会逐斥并无可挽回地遗弃一个有思想的生灵。',title:'《悲惨世界》',author:'雨果'},
+            {content:'赐我以静默，我便敢于用之征服黑夜。',title:'《沙与沫》',author:'纪伯伦'},
+            {content:'当人们赞美我高谈阔论的缺点，责备我沉默寡言的美德时，我的孤寂感便产生了。',title:'《沙与沫》',author:'纪伯伦'},
+            {content:'当生活在别处时，那是梦，是艺术，是诗，而当别处一旦变为此处，崇高感随即便变为生活的另一面：残酷。',title:'《生活在别处》',author:'米兰•昆德拉'},
+            {content:'从现在起，我开始谨慎地选择我的生活，我不再轻易让自己迷失在各种诱惑里。我心中已经听到来自远方的呼唤，再不需要回过头去关心身后的种种是非与议论。我已无暇顾及过去，我要向前走。',title:'《不能承受的生命之轻》',author:'米兰•昆德拉'},
+            {content:'清静就是不被人注视的那种温馨感觉。人的眼光是沉重的负担，是吸人膏血的吻。',title:'《不朽》',author:'米兰•昆德拉'},
+        ]
+        const random = Math.floor(Math.random()*settings.length)
+        $('#hitokoto').text(settings[random].content).show();
+        $('#hitokotoAuthor').text( settings[random].title + ' - ' + settings[random].author).show();
+
     };
 
 //=================== 逻辑处理：非主页处理

@@ -1,13 +1,14 @@
 ---
 title: Hexo主题LiveForCode介绍
 comments: true
-donate: true
+donate: false
+secret: false
 tags: Hexo
 categories: Web
 description: Hexo主题LiveForCode介绍.
-sticky: 10000
-abbrlink: 1112885395
-date: 2020-08-01 00:00:00
+#sticky: 10000
+abbrlink: 1
+date: 2024-02-20 15:00:00
 from:
 url:
 author:

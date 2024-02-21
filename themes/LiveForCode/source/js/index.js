@@ -103,7 +103,7 @@
         ],
         MenuLink : [],
         FooterStyle: 2,
-        BottomText: '<div><span class="face">ღゝ◡╹)ノ♡</span></div><div>【人生若只如初见<span><i class="iconfont icon-like-fill"></i></span>何事秋风悲画扇】</div><div>Live For Code</div>',
+        BottomText: '<div><span class="face">ღゝ◡╹)ノ♡</span></div><div>【不要温和地走进那个良夜<span><i class="iconfont icon-like-fill"></i></span>怒斥，怒斥光明的消逝】</div><div>Live For Code</div>',
         ConsoleList: [],
         FontIconExtend: '',
         Donate: {
@@ -253,7 +253,7 @@
             UbuntuMono: '/font/UbuntuMono.css'
         },
         Suffix: {
-            about: '简单地活着, 肆意又精彩.'
+            about: '愿你遭遇一切苦涩时，恰好兜里有糖。'
         },
         Theme: {
             url: 'https://github.com/first19326/Hexo-LiveForCode',
