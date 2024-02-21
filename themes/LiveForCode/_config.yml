@@ -231,7 +231,7 @@ MenuLink:
     name: "微信"
     icon: "icon-wechat"
     href: "javascript:;"
-    class: ""
+    class: "image"
     target: "_self"
     image: "/image/sidebar/wechat.png"
   -
